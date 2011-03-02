@@ -1,0 +1,180 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: Verdana, sans-serif; 
+  font-size: small;
+  line-height: 1.5em;
+}
+
+p {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.0em;
+  margin: 0;
+  padding: 6px 0 10px 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin: 0;
+  padding: 2px 0 6px 0;
+}
+
+h3 {
+  font-size: 1.6em;
+  margin: 0;
+  padding: 2px 0 6px 0;
+}
+
+a:link, a:visited {
+  color: #369;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.wholepage {
+  margin: 10px auto;
+  width: 90%;
+}
+
+.header {
+  border-bottom: 1px solid #666;
+  float: left;
+  margin: 0 0 4px 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header h1 {
+  padding: 15px 0 15px 10px;
+}
+
+.header ul {
+  float: left;
+  margin: 0 0 -1px 0;
+  padding: 3px 0 0 0;
+  width: 50%;
+}
+
+.header li {
+/*  background: #eee; */
+  border-bottom: 1px solid #666;
+  display: inline;
+  float: left;
+  list-style-type: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.header .active {
+}
+
+.header li a {
+  float: left;
+  padding: 2px 10px;
+}
+
+.header li a:hover {
+  background: #eee;
+}
+
+.header .active a {
+  color: #fff;
+}
+
+.header .active a:hover {
+  color: #369;
+}
+
+.header ul.auth {
+  float: right;
+}
+
+.header ul.auth li {
+  float: right;
+  margin: 0 10px 0 0;
+}
+
+.container {
+  clear: both;
+  margin: 0 10px;
+}
+
+.content {
+  clear: left;
+  border-right: 1px solid #999;
+  margin-right: 165px;
+  padding: 5px;
+}
+
+.sidebar {
+  clear: both;
+  float: right;
+  padding: 4px 0 10px 0;
+  width: 150px;
+}
+
+.sidebar p {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
+.sidebar li {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  border-top: 1px solid #666;
+  clear: both;
+  font-size: 0.8em;
+  margin: 4px 10px 0 10px;
+  padding: 2px 5px;
+  text-align: right;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+}
+
+input {
+  margin: 0 0 5px 0;
+}
+
+input#tags {
+  display: block;
+  width: 100%;
+}
+
+input#title {
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  display: block;
+  height: 200px;
+  margin: 0 0 5px 0;
+  width: 100%;
+}
+
+textarea#comment {
+  width: 95%;
+}

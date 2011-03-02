@@ -1,0 +1,125 @@
+body {
+	background: #fff;
+	color: #333;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 0.9em; 
+	line-height: 1.3em;
+}
+
+p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2.0em;
+	padding: 2px 0 6px 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.8em;
+	padding: 2px 0 6px 0;
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.6em;
+	padding: 2px 0 6px 0;
+	margin: 0;
+}
+
+a:link, a:visited {
+	color: #369;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+.container {
+	width: 100%;
+	margin: 10px auto;
+}
+
+.header {
+	padding: 0;
+	margin: 0 0 4px 0;
+	border-bottom: 1px solid #666;
+}
+
+.header ul {
+	padding: 3px 0;
+	margin: 0;
+}
+
+.header li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	list-style-type: none;
+}
+
+.header li a {
+	padding: 0 5px;
+}
+
+.content {
+	padding: 5px;
+	margin-right: 160px;
+	border-right: 1px solid #999;
+}
+
+.sidebar {
+	float: right;
+	width: 150px;
+	margin: 0;
+	padding: 4px 0 4px 10px;
+	font-size: 0.8em;
+}
+
+.sidebar p {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+
+.sidebar li {
+	margin: 0;
+	padding: 0;
+	list-style-type: square;
+}
+
+.footer {
+	clear: both;
+	padding: 2px 5px;
+	margin: 4px 0 0 0;
+	text-align: right;
+	border-top: 1px solid #666;
+	font-size: 0.8em;
+}
+
+label {
+	display: block;
+}
+
+input {
+	display: block;
+	margin: 0 0 5px 0;
+}
+
+input#tags {
+	width: 95%;
+}
+
+textarea {
+	width: 95%;
+	height: 200px;
+	display: block;
+	margin: 0 0 5px 0;
+}

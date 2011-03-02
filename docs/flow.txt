@@ -1,0 +1,11 @@
+
+Execution starts in the dispatcher - /index.php
+
+/index.php examines the request and loads the controller
+
+Default controller for this app is /controllers/wiki.php
+
+/controllers/wiki.php examines the action and loads /models/wikipage.php
+
+/controllers/wiki.php renders the page using /views/index.php and /views/layouts/default.php
+
